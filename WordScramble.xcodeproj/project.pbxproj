@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF4D68BF1F08ECF7006EFB9B /* LetterGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4D68BE1F08ECF7006EFB9B /* LetterGrid.swift */; };
+		BF4D68C11F09A784006EFB9B /* GridGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF4D68C01F09A784006EFB9B /* GridGenerator.swift */; };
 		BFB3B6311EFEB3C300B323C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB3B6301EFEB3C300B323C0 /* AppDelegate.swift */; };
 		BFB3B6331EFEB3C300B323C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB3B6321EFEB3C300B323C0 /* ViewController.swift */; };
 		BFB3B6361EFEB3C300B323C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFB3B6341EFEB3C300B323C0 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF4D68BE1F08ECF7006EFB9B /* LetterGrid.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LetterGrid.swift; sourceTree = "<group>"; };
+		BF4D68C01F09A784006EFB9B /* GridGenerator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridGenerator.swift; sourceTree = "<group>"; };
 		BFB3B62D1EFEB3C300B323C0 /* WordScramble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WordScramble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFB3B6301EFEB3C300B323C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFB3B6321EFEB3C300B323C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -99,6 +103,8 @@
 			children = (
 				BFB3B6301EFEB3C300B323C0 /* AppDelegate.swift */,
 				BFB3B6321EFEB3C300B323C0 /* ViewController.swift */,
+				BF4D68BE1F08ECF7006EFB9B /* LetterGrid.swift */,
+				BF4D68C01F09A784006EFB9B /* GridGenerator.swift */,
 				BFB3B6341EFEB3C300B323C0 /* Main.storyboard */,
 				BFB3B6371EFEB3C300B323C0 /* Assets.xcassets */,
 				BFB3B6391EFEB3C300B323C0 /* LaunchScreen.storyboard */,
@@ -259,8 +265,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF4D68BF1F08ECF7006EFB9B /* LetterGrid.swift in Sources */,
 				BFB3B6331EFEB3C300B323C0 /* ViewController.swift in Sources */,
 				BFB3B6311EFEB3C300B323C0 /* AppDelegate.swift in Sources */,
+				BF4D68C11F09A784006EFB9B /* GridGenerator.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +515,7 @@
 				BFB3B6571EFEB3C300B323C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFB3B6581EFEB3C300B323C0 /* Build configuration list for PBXNativeTarget "WordScrambleTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +524,7 @@
 				BFB3B65A1EFEB3C300B323C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BFB3B65B1EFEB3C300B323C0 /* Build configuration list for PBXNativeTarget "WordScrambleUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +533,7 @@
 				BFB3B65D1EFEB3C300B323C0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
